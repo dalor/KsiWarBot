@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "/",
+    "rewrites": [
+      {
+        "source": "/bot/**",
+        "function": "webhook"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "serviceAccountKey.json",
+      "runner.js"
+    ]
+  }
+}

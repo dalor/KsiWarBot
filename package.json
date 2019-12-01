@@ -1,0 +1,16 @@
+{
+  "name": "ksi_war_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runner.js",
+  "dependencies": {
+    "firebase-admin": "^8.8.0",
+    "telegraf": "^3.34.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node runner.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
